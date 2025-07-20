@@ -1,0 +1,163 @@
+/* Estilo para cada noticia */
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.news-item {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    height: auto; /* Cambiado a height: auto */
+}
+
+.texto-completo {
+    white-space: normal;
+    word-wrap: break-word;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+
+
+/* Efecto hover para destacar la noticia */
+.news-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagen de la noticia */
+.noticia-imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Títulos y textos */
+.news-item h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 1em;
+    color: #666;
+    /* max-height: 100px; */ /* Eliminado */
+    /* overflow: hidden; */ /* Eliminado */
+    /* text-overflow: ellipsis; */ /* Eliminado */
+}
+
+.fecha-noticia {
+    font-size: 0.9em;
+    color: #888;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.ver-mas {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff; /* Añade un color de fondo al botón "Ver más" */
+}
+
+.ver-mas:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el contenedor de los botones */
+.news-actions {
+    display: flex;
+    justify-content: flex-end; /* Alinea los botones a la derecha */
+    margin-top: 10px; /* Añade margen superior para separarlos del texto */
+}
+
+.news-actions a {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px; /* Añade margen izquierdo para separarlos */
+}
+
+.button-edit {
+    background-color: #28a745; /* Verde para modificar */
+}
+
+.button-delete {
+    background-color: #dc3545; /* Rojo para borrar */
+}
+
+.button-edit:hover {
+    background-color: #218838;
+}
+
+.button-delete:hover {
+    background-color: #c82333;
+}
+.lista {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-top: 20px; /* Añade margen superior para separarlo del formulario */
+      
+}
+h2 {
+    color: #333; /* Color de texto oscuro para los encabezados */
+    text-align: center;
+}
+a {
+    color:  #007bff; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+.buscar{
+    text-align: center;
+    margin-top:10px;
+}
+.ver-mas-btn {
+    background-color: #007bff;  /* Cambiado a naranja */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.ver-mas-btn:hover {
+    background-color:#007bff; ; /* Naranja más oscuro al pasar el cursor */
+}
+.ver-menos-btn{
+    background-color: #007bff; /* Cambiado a naranja */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.ver-menos-btn:hover {
+    background-color: #FF8C00; /* Naranja más oscuro al pasar el cursor */
+}
+

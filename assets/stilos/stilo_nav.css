@@ -1,0 +1,135 @@
+.nav ul li.active a {
+    background-color: #f7f5f5; /* Cambia el color de fondo */
+    color: #0b0b0b; /* Cambia el color del texto */
+    border-radius: 5px; /* Añade un borde redondeado */
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+    width: 85px;
+    height: 85px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.nav ul li a:active {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.nav ul li a:hover {
+    background-color: #777;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column; /* Apila los elementos verticalmente */
+        align-items: flex-start; /* Alinea los elementos al inicio */
+    }
+
+    .nav ul {
+        flex-direction: column; /* Apila los elementos de la lista verticalmente */
+        width: 100%; /* Ocupa todo el ancho */
+        margin-top: 10px; /* Añade margen superior */
+        gap:5px;
+    }
+
+    .nav ul li {
+        width: 100%; /* Ocupa todo el ancho */
+    }
+
+    .nav ul li a {
+        display: block; /* Ocupa todo el ancho del elemento li */
+        text-align: center; /* Centra el texto */
+    }
+}
+.footer {
+    background-color: #333;
+    color: white;
+    font-size: 1.5rem;
+    padding: 50px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer ul li {
+    display: inline;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    font-size: 24px;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .footer {
+        padding: 20px; /* Reduce el padding */
+        font-size: 1rem; /* Reduce el tamaño de la fuente */
+    }
+
+    .footer ul {
+        flex-direction: column; /* Apila los elementos verticalmente */
+    }
+
+    .footer ul li {
+        display: block; /* Ocupa todo el ancho */
+        margin-bottom: 10px; /* Añade margen inferior */
+        text-align: center;
+    }
+
+    .footer ul li a {
+        padding: 10px; /* Reduce el padding */
+    }
+}

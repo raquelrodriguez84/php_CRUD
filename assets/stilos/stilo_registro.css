@@ -1,0 +1,148 @@
+h1, h2 {
+    color: #333; /* Color de texto oscuro para los encabezados */
+    text-align: center;
+}
+.registro {
+    width: 100%;
+    max-width: 100%;
+    background-image: url("../images/gato.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    
+    border-radius: 8px;   
+    margin-top: 20px; 
+}
+
+.register {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.datos {
+    margin-bottom: 15px;
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+.datos label {
+    display: block;
+    margin-bottom: 5px;
+    color: white; /* Etiquetas en blanco para mejor contraste */
+}
+
+.datos input[type="text"],
+.datos input[type="email"],
+.datos input[type="date"],
+.datos input[type="password"],
+.datos select {
+    width: calc(90% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 5px;
+}
+
+button {
+    background-color: rgb(239, 221, 221);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.mensaje-exito {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.formularioUser {
+    width: 400px;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.formularioUser fieldset {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.formularioUser legend {
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.formularioUser .campo {
+    margin-bottom: 15px;
+}
+
+.formularioUser label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formularioUser input[type="text"],
+.formularioUser input[type="email"],
+.formularioUser input[type="date"],
+.formularioUser input[type="password"],
+.formularioUser select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.formularioUser .error {
+    color: red;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 5px;
+}
+
+.formularioUser button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.formularioUser button:hover {
+    background-color: #0056b3;
+}
+a {
+    
+    color:  #0056b3; 
+    text-decoration: none; 
+}
+.volver {
+    text-align: center;
+}
+a:hover {
+    text-decoration: underline; 
+}

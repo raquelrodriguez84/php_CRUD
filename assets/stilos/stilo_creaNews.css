@@ -1,0 +1,78 @@
+.news-form-container {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.news-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+input[type="file"] {
+    width: calc(100% - 12px); /* Ajuste para el padding */
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+.lista {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-top: 20px; /* Añade margen superior para separarlo del formulario */
+      
+}
+
+button {
+    
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+h1, h2 {
+    color: #333; /* Color de texto oscuro para los encabezados */
+    text-align: center;
+}
+
+a {
+    color:  #007bff; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 5px;
+}

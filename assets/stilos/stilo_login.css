@@ -1,0 +1,68 @@
+body.inicio {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    max-width: 90%;
+}
+
+.login fieldset {
+    border: none;
+    padding: 0;
+}
+
+.login label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.error {
+    color: #D9534F;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 5px;
+}
+
+.login button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login button:hover {
+    background-color: #0056b3;
+}
+

@@ -1,0 +1,173 @@
+
+h2{
+    text-align: center;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.cita {
+    border: 1px solid #ddd;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cita h2, .cita h3 {
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cita p {
+    margin: 5px 0;
+}
+.cita label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.cita input[type="date"],
+.cita input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.cita button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cita button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos específicos para el formulario de reserva */
+.reserva-cita-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+.reserva-cita-form h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.reserva-cita-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.reserva-cita-form input[type="date"],
+.reserva-cita-form input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.reserva-cita-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reserva-cita-form button:hover {
+    background-color: #218838;
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 5px;
+}
+
+.cita-container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.cita-info {
+    margin-bottom: 20px;
+}
+
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+
+input[type="date"],
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
